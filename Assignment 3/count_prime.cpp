@@ -1,5 +1,6 @@
-int countPrimes(int n)
-{
+class Solution {
+public:
+    int countPrimes(int n) {
            vector<bool>prime(n+1,1);
        
         int count=0;
@@ -13,4 +14,5 @@ int countPrimes(int n)
             
         }
         return count;
-    } 
+    }     
+};
