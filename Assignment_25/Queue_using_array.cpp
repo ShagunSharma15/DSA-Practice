@@ -24,7 +24,7 @@ class Queue{
 	}
  
 	int front(){
-		if(start<=end){
+		if(start<end){
 			return A[start];
 		}
 		cout<<"returning the value at front\n";
