@@ -44,7 +44,7 @@ class Queue{
 	int size(){
 	
 		cout<<(end-start)<<endl;
-		
+		//return (end-start);  can use this also....
 		cout<<"return the size of the queue\n";
 		return 0;
 	}
